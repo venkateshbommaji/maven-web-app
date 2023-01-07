@@ -7,6 +7,19 @@
   <version>3.0-SNAPSHOT</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
+  
+  
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://13.126.127.96:8081/repository/sample-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://13.126.127.96:8081/repository/sample-releases/</url>
+		</repository>
+  	</distributionManagement>
  
   <dependencies>
     <dependency>
