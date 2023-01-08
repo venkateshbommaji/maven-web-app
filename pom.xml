@@ -9,6 +9,15 @@
   <url>http://maven.apache.org</url>
   
   
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://13.233.70.196:8081/repository/ashokit-snapshot-repository/</url>
+		 </snapshotRepository>
+		
+  </distributionManagement>
+  
+  
   
  
   <dependencies>
